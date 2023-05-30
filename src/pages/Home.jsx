@@ -1,12 +1,10 @@
-import education from '../assets/gorro-de-graduacion.png'
-import work from '../assets/portafolio.png'
 import dot from '../assets/UI-DOT.png'
 import pls from '../assets/UI-PLS.png'
 import cre from '../assets/UI-cre.png'
 import movies from '../assets/F-movies.png'
 import tareas from '../assets/F-tareas.png'
 import Typewriters from '../typewriter/Typewriters'
-import { FaFacebook, FaGithub, FaBehance } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaBehance, FaLaptop } from 'react-icons/fa'
 
 const Home = () => {
   return (
@@ -80,10 +78,7 @@ const Home = () => {
                                         <h2></h2>
                                         <div className="container-icons">
                                             <p>
-                                                <a href="#">
-                                                <FaGithub/>
-                                            
-                                                </a>
+                                                
                                                 <a href="https://www.behance.net/gallery/170973827/Web-Design-DOT-trucks" target="_blank" rel="noopener noreferrer">
                                                 <FaBehance/>
                                                 </a>
@@ -104,11 +99,8 @@ const Home = () => {
                                     <h2></h2>
                                     <div className="container-icons">
                                             <p>
-                                                <a href="#">
-                                                <FaGithub/>
-                                            
-                                                </a>
-                                                <a href="https://www.behance.net/gallery/170973827/Web-Design-DOT-trucks" target="_blank" rel="noopener noreferrer">
+                                                
+                                                <a href="https://www.behance.net/gallery/171423705/Designs-for-education-platform" target="_blank" rel="noopener noreferrer">
                                                 <FaBehance/>
                                                 </a>
                                             </p>
@@ -128,11 +120,8 @@ const Home = () => {
                                 <h2></h2>
                                     <div className="container-icons">
                                                 <p>
-                                                    <a href="#">
-                                                    <FaGithub/>
-                                                
-                                                    </a>
-                                                    <a href="https://www.behance.net/gallery/170973827/Web-Design-DOT-trucks" target="_blank" rel="noopener noreferrer">
+                                                    
+                                                    <a href="https://www.behance.net/gallery/171816145/Credenda-inc-Web-Design?" target="_blank" rel="noopener noreferrer">
                                                     <FaBehance/>
                                                     </a>
                                                 </p>
@@ -162,12 +151,12 @@ const Home = () => {
                                 <h2></h2>
                                     <div className="container-icons">
                                                 <p>
-                                                    <a href="#">
+                                                    <a href="https://github.com/xdepazx/movies-frontend" target="_blank" rel="noopener noreferrer">
                                                     <FaGithub/>
                                                 
                                                     </a>
-                                                    <a href="https://www.behance.net/gallery/170973827/Web-Design-DOT-trucks" target="_blank" rel="noopener noreferrer">
-                                                    <FaBehance/>
+                                                    <a href="https://taupe-jelly-73f744.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                                    <FaLaptop/>
                                                     </a>
                                                 </p>
                                     </div>
@@ -186,12 +175,12 @@ const Home = () => {
                                 <h2></h2>
                                     <div className="container-icons">
                                                 <p>
-                                                    <a href="#">
+                                                    <a href="https://github.com/xdepazx/tareas-fullstack" target="_blank" rel="noopener noreferrer">
                                                     <FaGithub/>
                                                 
                                                     </a>
-                                                    <a href="https://www.behance.net/gallery/170973827/Web-Design-DOT-trucks" target="_blank" rel="noopener noreferrer">
-                                                    <FaBehance/>
+                                                    <a href="https://fascinating-jalebi-25e39a.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                                    <FaLaptop/>
                                                     </a>
                                                 </p>
                                     </div>
@@ -210,19 +199,19 @@ const Home = () => {
                                 <h2></h2>
                                     <div className="container-icons">
                                                 <p>
-                                                    <a href="#">
+                                                    <a href="https://github.com/xdepazx/portfolio-dev" target="_blank" rel="noopener noreferrer">
                                                     <FaGithub/>
                                                 
                                                     </a>
-                                                    <a href="https://www.behance.net/gallery/170973827/Web-Design-DOT-trucks" target="_blank" rel="noopener noreferrer">
-                                                    <FaBehance/>
+                                                    <a href="#" >
+                                                    <FaLaptop/>
                                                     </a>
                                                 </p>
                                     </div>
                                 </div>
                                 </div>
                                  <div className="card-body bg-secondary text-center">
-                                    <h5 className="card-title ">BA Graphic Design</h5>
+                                    <h5 className="card-title ">Personal Portfolio</h5>
                                 </div>
                             </div>
                         </div>
