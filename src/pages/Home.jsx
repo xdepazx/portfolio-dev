@@ -4,7 +4,9 @@ import dot from '../assets/UI-DOT.png'
 import pls from '../assets/UI-PLS.png'
 import cre from '../assets/UI-cre.png'
 import movies from '../assets/F-movies.png'
+import tareas from '../assets/F-tareas.png'
 import Typewriters from '../typewriter/Typewriters'
+import { FaFacebook, FaGithub, FaBehance } from 'react-icons/fa'
 
 const Home = () => {
   return (
@@ -72,7 +74,23 @@ const Home = () => {
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col-sm-1 mx-auto">
                             <div className="card  h-100">
-                                <img src={dot} className="card-img-top img-fluid" alt="..." />
+                                <div className="hovereffect">
+                                     <img src={dot} className="card-img-top img-fluid" alt="..." />
+                                    <div className="overlay">
+                                        <h2></h2>
+                                        <div className="container-icons">
+                                            <p>
+                                                <a href="#">
+                                                <FaGithub/>
+                                            
+                                                </a>
+                                                <a href="https://www.behance.net/gallery/170973827/Web-Design-DOT-trucks" target="_blank" rel="noopener noreferrer">
+                                                <FaBehance/>
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className="card-body bg-secondary text-center">
                                     <h5 className="card-title ">DOT trucking permits</h5>
                                 </div>
@@ -80,7 +98,23 @@ const Home = () => {
                         </div>
                         <div className="col-sm-1 mx-auto">
                             <div className="card  h-100">
+                            <div className="hovereffect">
                                 <img src={pls} className="card-img-top img-fluid" alt="..." />
+                                <div className="overlay">
+                                    <h2></h2>
+                                    <div className="container-icons">
+                                            <p>
+                                                <a href="#">
+                                                <FaGithub/>
+                                            
+                                                </a>
+                                                <a href="https://www.behance.net/gallery/170973827/Web-Design-DOT-trucks" target="_blank" rel="noopener noreferrer">
+                                                <FaBehance/>
+                                                </a>
+                                            </p>
+                                    </div>
+                                </div>
+                                </div>
                                 <div className="card-body bg-secondary text-center">
                                     <h5 className="card-title ">Prepa en línea-SEP</h5>
                                 </div>
@@ -88,10 +122,28 @@ const Home = () => {
                         </div>
                         <div className="col-sm-1 mx-auto">
                             <div className="card  h-100">
-                                <img src={cre} className="card-img-top img-fluid" alt="..." />
-                                <div className="card-body bg-secondary text-center">
-                                    <h5 className="card-title ">Credenda Inc.</h5>
+                                <div className="hovereffect">
+                               <img src={cre} className="card-img-top img-fluid" alt="..." />
+                               <div className="overlay">
+                                <h2></h2>
+                                    <div className="container-icons">
+                                                <p>
+                                                    <a href="#">
+                                                    <FaGithub/>
+                                                
+                                                    </a>
+                                                    <a href="https://www.behance.net/gallery/170973827/Web-Design-DOT-trucks" target="_blank" rel="noopener noreferrer">
+                                                    <FaBehance/>
+                                                    </a>
+                                                </p>
+                                    </div>
                                 </div>
+                                </div>
+                                    <div className="card-body bg-secondary text-center">
+                                        <h5 className="card-title ">Credenda Inc.</h5>
+                                    </div>
+                                
+                                
                             </div>
                         </div>
                         
@@ -104,8 +156,23 @@ const Home = () => {
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col-sm-1 mx-auto">
                             <div className="card  h-100">
-                               <a href="https://taupe-jelly-73f744.netlify.app/" target="_blank" rel="noopener noreferrer"> <img src={movies} className="card-img-top" alt="..." /></a>
-                                
+                            <div className="hovereffect">
+                               <img src={movies} className="card-img-top img-fluid" alt="..." />
+                               <div className="overlay">
+                                <h2></h2>
+                                    <div className="container-icons">
+                                                <p>
+                                                    <a href="#">
+                                                    <FaGithub/>
+                                                
+                                                    </a>
+                                                    <a href="https://www.behance.net/gallery/170973827/Web-Design-DOT-trucks" target="_blank" rel="noopener noreferrer">
+                                                    <FaBehance/>
+                                                    </a>
+                                                </p>
+                                    </div>
+                                </div>
+                                </div>
                                 <div className="card-body bg-secondary text-center">
                                     <h5 className="card-title ">Oura Movies</h5>
                                 </div>
@@ -113,16 +180,48 @@ const Home = () => {
                         </div>
                         <div className="col-sm-1 mx-auto">
                             <div className="card  h-100">
-                                <img src={dot} className="card-img-top" alt="..." />
-                                <div className="card-body bg-secondary text-center">
-                                    <h5 className="card-title ">BA Graphic Design</h5>
+                            <div className="hovereffect">
+                               <img src={tareas} className="card-img-top img-fluid" alt="..." />
+                               <div className="overlay">
+                                <h2></h2>
+                                    <div className="container-icons">
+                                                <p>
+                                                    <a href="#">
+                                                    <FaGithub/>
+                                                
+                                                    </a>
+                                                    <a href="https://www.behance.net/gallery/170973827/Web-Design-DOT-trucks" target="_blank" rel="noopener noreferrer">
+                                                    <FaBehance/>
+                                                    </a>
+                                                </p>
+                                    </div>
+                                </div>
+                                </div>
+                                 <div className="card-body bg-secondary text-center">
+                                    <h5 className="card-title ">Daily Planner App</h5>
                                 </div>
                             </div>
                         </div>
                         <div className="col-sm-1 mx-auto">
                             <div className="card  h-100">
-                                <img src={dot} className="card-img-top" alt="..." />
-                                <div className="card-body bg-secondary text-center">
+                            <div className="hovereffect">
+                               <img src={movies} className="card-img-top img-fluid" alt="..." />
+                               <div className="overlay">
+                                <h2></h2>
+                                    <div className="container-icons">
+                                                <p>
+                                                    <a href="#">
+                                                    <FaGithub/>
+                                                
+                                                    </a>
+                                                    <a href="https://www.behance.net/gallery/170973827/Web-Design-DOT-trucks" target="_blank" rel="noopener noreferrer">
+                                                    <FaBehance/>
+                                                    </a>
+                                                </p>
+                                    </div>
+                                </div>
+                                </div>
+                                 <div className="card-body bg-secondary text-center">
                                     <h5 className="card-title ">BA Graphic Design</h5>
                                 </div>
                             </div>
