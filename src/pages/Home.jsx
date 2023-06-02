@@ -3,6 +3,7 @@ import pls from '../assets/UI-PLS.png'
 import cre from '../assets/UI-cre.png'
 import movies from '../assets/F-movies.png'
 import tareas from '../assets/F-tareas.png'
+import port from '../assets/UI-frida.png'
 import Typewriters from '../typewriter/Typewriters'
 import { FaFacebook, FaGithub, FaBehance, FaLaptop } from 'react-icons/fa'
 
@@ -13,11 +14,11 @@ const Home = () => {
             <div className="hero">
                 <div className="p-4 md-5 mb-4 rounded ">
                     <div className="row">
-                        <div className="col-md-6 px-0">
+                        <div className="px-0 text-center">
                             <Typewriters/>
                             
                             <h2 className="my-3">
-                            I'm a web designer and frontend developer
+                            I'm a web designer and a frontend developer
                             </h2>
                         </div>
                         {/* <div className="col-md-6 ">
@@ -29,45 +30,56 @@ const Home = () => {
             <div id='experience'>
                 <h2>Experience</h2>
                 <div className="container p-4 md-5 ">
-                <div className="row row-cols-md-5 g-5 ">
-                    
-                    <div className="col-sm-1 mx-auto">
-                        <div className="card  h-100">
-                            <img src="" className="card-img-top img-thumbnail" alt="..." />
-                            <div className="card-body bg-secondary text-center">
-                                <h5 className="card-title ">BA in Graphic Design</h5>
+                <div className="row">
+                    <div className="row text-center">
+                        <h3>Education</h3>
+                    </div>
+                
+                    <div className="col-sm-1 col-md-3 mx-auto g-4">
+                        <div className="card bg-secondary h-100">
+                            
+                            <div className="card-body text-center ">
+                                <h5 className="card-title fw-bold ">BA in Graphic Design</h5>
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-1 mx-auto">
-                        <div className="card h-100">
-                            <img src="" className="card-img-top img-thumbnail" alt="..." />
-                            <div className="card-body bg-secondary text-center">
-                                <h5 className="card-title ">Frontend Developer at DEV.F</h5>
+                
+                
+                    <div className="col-sm-1 col-md-3 mx-auto g-4">
+                        <div className="card bg-secondary h-100">
+                            
+                            <div className="card-body  text-center">
+                                <h5 className="card-title fw-bold">Frontend Developer at DEV.F</h5>
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-1 mx-auto">
-                        <div className="card h-100">
-                            <img src="" className="card-img-top img-thumbnail" alt="..." />
-                            <div className="card-body bg-secondary text-center">
-                                <h5 className="card-title ">Graphic Designer Intern</h5>
+                    </div>
+                    <div className="row mt-4 text-center ">
+                        <div className="row">
+                            <h3>Work experience</h3>
+                        </div>
+                    <div className="col-sm-1  col-md-3 mx-auto g-4">
+                        <div className="card bg-secondary h-100">
+                           
+                            <div className="card-body  text-center">
+                                <h5 className="card-title fw-bold">Graphic Designer Intern</h5>
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-1 mx-auto">
-                        <div className="card h-100">
-                            <img src="" className="card-img-top img-thumbnail" alt="..." />
-                            <div className="card-body bg-secondary text-center">
-                                <h5 className="card-title ">Web Designer Jr.</h5>
+                    <div className="col-sm-1 col-md-3 mx-auto g-4">
+                        <div className="card bg-secondary h-100">
+                            
+                            <div className="card-body  text-center">
+                                <h5 className="card-title fw-bold ">Web Designer Jr.</h5>
                             </div>
                         </div>
+                        </div>
                     </div>
-                </div>
+                
                 </div>
             </div>
             <div id='ui'>
-                <h2>UI Design</h2>
+                <h2>UI Design /Figma </h2>
                 <div className="container p-4 md-5">
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col-sm-1 mx-auto">
@@ -140,7 +152,7 @@ const Home = () => {
                 </div>
             </div>
             <div id='front'>
-                <h2>Frontend</h2>
+                <h2>Frontend / React JS</h2>
                 <div className="container p-4 md-5">
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col-sm-1 mx-auto">
@@ -194,7 +206,7 @@ const Home = () => {
                         <div className="col-sm-1 mx-auto">
                             <div className="card  h-100">
                             <div className="hovereffect">
-                               <img src={movies} className="card-img-top img-fluid" alt="..." />
+                               <img src={port} className="card-img-top img-fluid" alt="..." />
                                <div className="overlay">
                                 <h2></h2>
                                     <div className="container-icons">

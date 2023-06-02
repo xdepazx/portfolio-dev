@@ -123,3 +123,10 @@ border-radius: 10px;
     font-size: 60px;
     padding: 10px;
   }
+
+  .exp-boxes {
+    border-radius: 5px;
+    border:#a7a7a7 3px;
+    background-color: #c7e1f8;
+    align-content: middle;
+  }
