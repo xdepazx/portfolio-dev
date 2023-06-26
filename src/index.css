@@ -1,35 +1,150 @@
+@font-face {
+  font-family: 'Chillax-Variable';
+  src: url('./fonts/Chillax-Variable.woff2') format('woff2'),
+       url('./fonts/Chillax-Variable.woff') format('woff'),
+       url('./fonts/Chillax-Variable.ttf') format('truetype');
+       font-weight: 200 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Chillax-Extralight';
+  src: url('./fonts/Chillax-Extralight.woff2') format('woff2'),
+       url('./fonts/Chillax-Extralight.woff') format('woff'),
+       url('./fonts/Chillax-Extralight.ttf') format('truetype');
+       font-weight: 200;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Chillax-Light';
+  src: url('./fonts/Chillax-Light.woff2') format('woff2'),
+       url('./fonts/Chillax-Light.woff') format('woff'),
+       url('./fonts/Chillax-Light.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Chillax-Regular';
+  src: url('./fonts/Chillax-Regular.woff2') format('woff2'),
+       url('./fonts/Chillax-Regular.woff') format('woff'),
+       url('./fonts/Chillax-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Chillax-Medium';
+  src: url('./fonts/Chillax-Medium.woff2') format('woff2'),
+       url('./fonts/Chillax-Medium.woff') format('woff'),
+       url('./fonts/Chillax-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Chillax-Semibold';
+  src: url('./fonts/Chillax-Semibold.woff2') format('woff2'),
+       url('./fonts/Chillax-Semibold.woff') format('woff'),
+       url('./fonts/Chillax-Semibold.ttf') format('truetype');
+       font-weight: 600;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Chillax-Bold';
+  src: url('./fonts/Chillax-Bold.woff2') format('woff2'),
+       url('./fonts/Chillax-Bold.woff') format('woff'),
+       url('./fonts/Chillax-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
 html {
     scroll-behavior: smooth;
+    
 }
+
 
 h1{
-    font-family: 'Instrument Sans', sans-serif;
+    font-family: 'Chillax-Light';
+    color:black
 }
 
-.hero img {
-    max-height: 50%;
-    float: right;
-    animation: updown 3s linear infinite;
+h2,h3 {
+  font-family: 'Chillax-Semibold';
+    color:black;
 }
 
-@keyframes updown {
-    0% {
-        transform: translateY(-20px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
+
+/* .hero {
+animation: change-color 8s cubic-bezier(1,0,0,1) infinite;
 }
+
+
+@keyframes change-color {
+    from {
+      background:linear-gradient(329deg, rgba(96,154,222,0.5704875700280112) 33%, rgba(219,111,100,0.5984987745098039) 100%);
+      border-radius: 10px; ;
+    }
+    to {
+      background: linear-gradient(329deg, rgba(222, 109, 96, 0.57) 33%, rgba(238, 174, 77, 0.598) 100%);
+border-radius: 10px;
+    }
+} */
 
 .hero {
-    padding-top: 300px;
-    background: rgb(96,154,222);
-background: linear-gradient(329deg, rgba(96,154,222,0.5704875700280112) 33%, rgba(219,111,100,0.5984987745098039) 100%);
-border-radius: 10px;
+  padding-bottom: 70px;
 }
+
+.vertical {
+  display: flex;
+  align-items: center;
+}
+
+.tags {
+  border: 1px solid black;
+  border-radius: 21px;
+  background: transparent;
+  padding: 1px 24px;
+  font-family: 'Chillax-Regular';
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.tags-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap:20px;
+  justify-content: center;
+}
+
+
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.edu {
+  padding-bottom: 70px;
+}
+
 
 .hovereffect {
     width: 100%;
@@ -125,8 +240,31 @@ border-radius: 10px;
   }
 
   .exp-boxes {
-    border-radius: 5px;
-    border:#a7a7a7 3px;
-    background-color: #c7e1f8;
-    align-content: middle;
+    border-radius: 10px;
+    border: solid 1px #d7d7d7;
+    background-color: #f8f8f8;
   }
+
+  .btn-cv {
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 0 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .btn-cv:hover {
+    opacity: 0.4;
+    cursor: default;
+  }
+
+  .btn-cv a {
+    color:#fff;
+    
+  }
+
+  .img-size {
+    max-width: 20%;
+  }
+
+  

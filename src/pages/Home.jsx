@@ -1,85 +1,115 @@
+import About from '../components/About'
+import Footer from '../components/Footer'
+import Tags from '../components/Tags'
 import dot from '../assets/UI-DOT.png'
 import pls from '../assets/UI-PLS.png'
 import cre from '../assets/UI-cre.png'
 import movies from '../assets/F-movies.png'
 import tareas from '../assets/F-tareas.png'
 import port from '../assets/UI-frida.png'
+import profile from '../assets/profile.png'
 import Typewriters from '../typewriter/Typewriters'
-import { FaFacebook, FaGithub, FaBehance, FaLaptop } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaBehance, FaLaptop, FaLinkedin } from 'react-icons/fa'
 
 const Home = () => {
   return (
     <div>
-        <div className="container">
+        <div >
             <div className="hero">
-                <div className="p-4 md-5 mb-4 rounded ">
-                    <div className="row">
-                        <div className="px-0 text-center">
-                            <Typewriters/>
+                <div className=" mb-4">
+                    <div className="row my-3 p-4 ">
+                        <div className="col-md-5 vertical">
+                            <div className="">
                             
-                            <h2 className="my-3">
-                            I'm a web designer and a frontend developer
-                            </h2>
+                            <Typewriters/>
+                            </div>
                         </div>
-                        {/* <div className="col-md-6 ">
-                            <img src={flower} alt="" className='img-fluid'/>
-                        </div> */}
+                        
+                        <div className="col-md-7 vertical">
+                            <div className="mx-auto">
+                                <h2 className='display-6'>
+                                web designer / software developer
+                                </h2>
+                                {/* <div className="text-center icons mt-4">
+                                    <FaGithub/>
+                                    <FaLinkedin/>
+                                    <FaBehance/>
+                                </div> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-5">
+
+                        </div>
+                        <div className="col-md-7">
+                            <Tags/>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id='experience'>
-                <h2>Experience</h2>
+            <div className="container">
+                <div id="about">
+                    <div className="container p-4 text-center ">
+                        <About/>
+                    </div>
+                </div>
+            <div id='education' className='edu'>
+                <h3>Education</h3>
                 <div className="container p-4 md-5 ">
-                <div className="row">
-                    <div className="row text-center">
-                        <h3>Education</h3>
-                    </div>
+                    <div className="row">
+                        <div className="row text-center">
+                            
+                        </div>
+                    
+                        <div className="col-sm-1 col-md-3 mx-auto g-4">
+                            <div className="exp-boxes shadow-sm p-3 h-100">
+                                
+                                <div className="text ">
+                                    <h5 className=" fw-bold title">BA in Graphic Design</h5>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                
                 
                     <div className="col-sm-1 col-md-3 mx-auto g-4">
-                        <div className="card bg-secondary h-100">
+                        <div className="exp-boxes shadow-sm p-3  h-100">
                             
-                            <div className="card-body text-center ">
-                                <h5 className="card-title fw-bold ">BA in Graphic Design</h5>
+                            <div className="  text">
+                                <h5 className=" fw-bold">Software Development </h5>
                             </div>
                         </div>
                     </div>
-                
-                
-                    <div className="col-sm-1 col-md-3 mx-auto g-4">
-                        <div className="card bg-secondary h-100">
-                            
-                            <div className="card-body  text-center">
-                                <h5 className="card-title fw-bold">Frontend Developer at DEV.F</h5>
-                            </div>
-                        </div>
                     </div>
-                    </div>
-                    <div className="row mt-4 text-center ">
-                        <div className="row">
+                    {/* <div className="row mt-4  ">
+                        <div className="row text-center">
                             <h3>Work experience</h3>
                         </div>
                     <div className="col-sm-1  col-md-3 mx-auto g-4">
-                        <div className="card bg-secondary h-100">
+                        <div className="exp-boxes shadow-sm p-3  h-100">
                            
-                            <div className="card-body  text-center">
-                                <h5 className="card-title fw-bold">Graphic Designer Intern</h5>
+                            <div className="text">
+                                <h5 className=" fw-bold">Graphic Designer Intern</h5>
+                                
                             </div>
                         </div>
                     </div>
                     <div className="col-sm-1 col-md-3 mx-auto g-4">
-                        <div className="card bg-secondary h-100">
+                        <div className="exp-boxes shadow-sm p-3 h-100">
                             
-                            <div className="card-body  text-center">
-                                <h5 className="card-title fw-bold ">Web Designer Jr.</h5>
+                            <div className="text">
+                                <h5 className=" fw-bold ">Web Designer Jr.</h5>
+                                
                             </div>
                         </div>
                         </div>
-                    </div>
+                    </div> */}
                 
                 </div>
             </div>
             <div id='ui'>
-                <h2>UI Design /Figma </h2>
+                <h3>UI Design /Figma </h3>
                 <div className="container p-4 md-5">
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col-sm-1 mx-auto">
@@ -98,7 +128,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="card-body bg-secondary text-center">
+                                <div className="card-body bg-light text-center">
                                     <h5 className="card-title ">DOT trucking permits</h5>
                                 </div>
                             </div>
@@ -119,7 +149,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 </div>
-                                <div className="card-body bg-secondary text-center">
+                                <div className="card-body bg-light text-center">
                                     <h5 className="card-title ">Prepa en línea-SEP</h5>
                                 </div>
                             </div>
@@ -140,7 +170,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 </div>
-                                    <div className="card-body bg-secondary text-center">
+                                    <div className="card-body bg-light text-center">
                                         <h5 className="card-title ">Credenda Inc.</h5>
                                     </div>
                                 
@@ -152,7 +182,7 @@ const Home = () => {
                 </div>
             </div>
             <div id='front'>
-                <h2>Frontend / React JS</h2>
+                <h3>Frontend / React JS</h3>
                 <div className="container p-4 md-5">
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col-sm-1 mx-auto">
@@ -174,7 +204,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 </div>
-                                <div className="card-body bg-secondary text-center">
+                                <div className="card-body bg-light text-center">
                                     <h5 className="card-title ">Oura Movies</h5>
                                 </div>
                             </div>
@@ -198,7 +228,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 </div>
-                                 <div className="card-body bg-secondary text-center">
+                                 <div className="card-body bg-light text-center">
                                     <h5 className="card-title ">Daily Planner App</h5>
                                 </div>
                             </div>
@@ -222,7 +252,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 </div>
-                                 <div className="card-body bg-secondary text-center">
+                                 <div className="card-body bg-light text-center">
                                     <h5 className="card-title ">Personal Portfolio</h5>
                                 </div>
                             </div>
@@ -231,6 +261,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            </div>
+            <Footer/>
         </div>
     </div>
   )
