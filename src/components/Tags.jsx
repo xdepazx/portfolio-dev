@@ -3,7 +3,7 @@
 const Tags = () => {
   return (
     <div>
-        <div className="tags-group">
+        <div className="tags-group p-4">
             <button className="tags">
                HTML
             </button>
@@ -20,7 +20,7 @@ const Tags = () => {
                REACT
             </button>
             <button className="tags">
-                PHOTSHOP
+                PHOTOSHOP
             </button>
             <button className="tags">
                 ILLUSTRATOR

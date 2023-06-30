@@ -1,3 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cursor {
+  z-index: 999;
+  position: fixed;
+  background: #e835eb;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow: 0 0 20px #e835eb,
+  0 0 60px #e835eb,
+  0 0 100px #e835eb;
+  animation: color 5s infinite;
+  transform: translate(-50%, -50%);
+}
+@keyframes colors {
+    0%{
+      filter: hue-rotate(0deg);
+    }
+    100%{
+      filter: hue-rotate(360deg);
+    }
+  }
+
+
+.cursor::before{
+  content: '';
+  position: fixed;
+  background: #e835eb;
+  width: 50px;
+  height: 50px;
+  opacity: 0.2;
+  transform: translate(-30%, -30%);
+  border-radius: 50%;
+}
+
 @font-face {
   font-family: 'Chillax-Variable';
   src: url('./fonts/Chillax-Variable.woff2') format('woff2'),
@@ -88,8 +129,14 @@ h1{
 h2,h3 {
   font-family: 'Chillax-Semibold';
     color:black;
+    margin-bottom: 10px;
 }
 
+p {
+  font-family: 'Chillax-Light';
+  color:black;
+  font-size: 20px;
+}
 
 /* .hero {
 animation: change-color 8s cubic-bezier(1,0,0,1) infinite;
@@ -107,13 +154,34 @@ border-radius: 10px;
     }
 } */
 
+li a {
+  position: relative;
+}
+
+li a::after {
+  content: '';
+  display: block;
+  margin: left;
+  background-color: #e835eb;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+li a:hover::after {
+  width: 100%;
+}
+
 .hero {
-  padding-bottom: 70px;
+  height: 100vh;
 }
 
 .vertical {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .tags {
@@ -124,14 +192,15 @@ border-radius: 10px;
   font-family: 'Chillax-Regular';
   font-size: 1rem;
   display: inline-block;
+  align-items: center;
 }
 
 .tags-group {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
   gap:20px;
   justify-content: center;
+  align-items: center;
 }
 
 
@@ -253,11 +322,7 @@ border-radius: 10px;
     letter-spacing: 2px;
   }
 
-  .btn-cv:hover {
-    opacity: 0.4;
-    cursor: default;
-  }
-
+ 
   .btn-cv a {
     color:#fff;
     

@@ -1,35 +1,37 @@
 import About from '../components/About'
 import Footer from '../components/Footer'
 import Tags from '../components/Tags'
+import Cursor from '../components/Cursor'
 import dot from '../assets/UI-DOT.png'
 import pls from '../assets/UI-PLS.png'
 import cre from '../assets/UI-cre.png'
 import movies from '../assets/F-movies.png'
 import tareas from '../assets/F-tareas.png'
 import port from '../assets/UI-frida.png'
-import profile from '../assets/profile.png'
 import Typewriters from '../typewriter/Typewriters'
 import { FaFacebook, FaGithub, FaBehance, FaLaptop, FaLinkedin } from 'react-icons/fa'
 
 const Home = () => {
   return (
     <div>
+        <Cursor/>
         <div >
-            <div className="hero">
-                <div className=" mb-4">
-                    <div className="row my-3 p-4 ">
-                        <div className="col-md-5 vertical">
+            <div className="row hero">
+                <div className=" ">
+                    <div className="row hero">
+                        <div className="col-md-12 vertical ">
                             <div className="">
                             
                             <Typewriters/>
                             </div>
                         </div>
-                        
-                        <div className="col-md-7 vertical">
-                            <div className="mx-auto">
+                        <div className="col-md-2"></div>
+                        <div className="col-md-8 ">
+                            <div className="text-center">
                                 <h2 className='display-6'>
-                                web designer / software developer
+                                UI designer / software developer
                                 </h2>
+                                <Tags/>
                                 {/* <div className="text-center icons mt-4">
                                     <FaGithub/>
                                     <FaLinkedin/>
@@ -37,13 +39,14 @@ const Home = () => {
                                 </div> */}
                             </div>
                         </div>
+                        <div className="col-md-2"></div>
                     </div>
                     <div className="row">
-                        <div className="col-md-5">
+                        <div className="col-md-6">
 
                         </div>
-                        <div className="col-md-7">
-                            <Tags/>
+                        <div className="col-md-6">
+                            
                         </div>
                     </div>
                 </div>
@@ -54,7 +57,7 @@ const Home = () => {
                         <About/>
                     </div>
                 </div>
-            <div id='education' className='edu'>
+            {/* <div id='education' className='edu'>
                 <h3>Education</h3>
                 <div className="container p-4 md-5 ">
                     <div className="row">
@@ -82,7 +85,7 @@ const Home = () => {
                         </div>
                     </div>
                     </div>
-                    {/* <div className="row mt-4  ">
+                     <div className="row mt-4  ">
                         <div className="row text-center">
                             <h3>Work experience</h3>
                         </div>
@@ -104,10 +107,10 @@ const Home = () => {
                             </div>
                         </div>
                         </div>
-                    </div> */}
+                    </div> 
                 
                 </div>
-            </div>
+            </div> */}
             <div id='ui'>
                 <h3>UI Design /Figma </h3>
                 <div className="container p-4 md-5">
