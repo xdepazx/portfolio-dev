@@ -13,8 +13,9 @@ import { FaFacebook, FaGithub, FaBehance, FaLaptop, FaLinkedin } from 'react-ico
 const Home = () => {
   return (
     <div>
+        <div className="ball"></div>
         <div >
-            <div className="row hero">
+            <div className="row hero ">
                 <div className=" ">
                     <div className="row hero">
                         <div className="col-md-12 vertical ">
@@ -264,7 +265,9 @@ const Home = () => {
             </div>
             </div>
             <Footer/>
+            
         </div>
+        
     </div>
   )
 }
