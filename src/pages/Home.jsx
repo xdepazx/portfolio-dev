@@ -1,7 +1,6 @@
 import About from '../components/About'
 import Footer from '../components/Footer'
 import Tags from '../components/Tags'
-import Cursor from '../components/Cursor'
 import dot from '../assets/UI-DOT.png'
 import pls from '../assets/UI-PLS.png'
 import cre from '../assets/UI-cre.png'
@@ -14,7 +13,6 @@ import { FaFacebook, FaGithub, FaBehance, FaLaptop, FaLinkedin } from 'react-ico
 const Home = () => {
   return (
     <div>
-        <Cursor/>
         <div >
             <div className="row hero">
                 <div className=" ">

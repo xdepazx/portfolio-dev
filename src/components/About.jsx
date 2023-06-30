@@ -3,7 +3,7 @@
 const About = () => {
   return (
     <div>
-      <h2>about me</h2>
+      <h2 className="underline-wavy">about me</h2>
       <div className="row">
         <div className="col md-2"></div>
         <div className="col-md-8">
