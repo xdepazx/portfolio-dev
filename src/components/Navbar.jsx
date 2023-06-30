@@ -18,11 +18,6 @@ const Navbar = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#education">Education
-            <span className="visually-hidden">(current)</span>
-          </a>
-        </li>
-        <li className="nav-item">
           <a className="nav-link" href="#ui">UI Design</a>
         </li>
         <li className="nav-item">
