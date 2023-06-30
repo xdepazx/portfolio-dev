@@ -1,5 +1,3 @@
-
-
 const Cursor = () => {
     const cursors = document.querySelector(".cursor");
     var timeout;
