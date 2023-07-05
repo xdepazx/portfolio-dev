@@ -7,13 +7,14 @@ import cre from '../assets/UI-cre.png'
 import movies from '../assets/F-movies.png'
 import tareas from '../assets/F-tareas.png'
 import port from '../assets/UI-frida.png'
+import ecom from '../assets/UI-ecom.png'
 import Typewriters from '../typewriter/Typewriters'
 import { FaFacebook, FaGithub, FaBehance, FaLaptop, FaLinkedin } from 'react-icons/fa'
 
 const Home = () => {
   return (
     <div>
-        <div className="ball"></div>
+        <div className=""></div>
         <div >
             <div className="row hero ">
                 <div className=" ">
@@ -154,6 +155,29 @@ const Home = () => {
                                 <div className="card-body bg-light text-center">
                                     <h5 className="card-title ">Prepa en línea-SEP</h5>
                                 </div>
+                            </div>
+                        </div>
+                        <div className="col-sm-1 mx-auto">
+                            <div className="card  h-100">
+                                <div className="hovereffect">
+                               <img src={ecom} className="card-img-top img-fluid" alt="..." />
+                               <div className="overlay">
+                                <h2></h2>
+                                    <div className="container-icons">
+                                                <p>
+                                                    
+                                                    <a href="https://www.behance.net/gallery/171030729/Portafolio-2022" target="_blank" rel="noopener noreferrer">
+                                                    <FaBehance/>
+                                                    </a>
+                                                </p>
+                                    </div>
+                                </div>
+                                </div>
+                                    <div className="card-body bg-light text-center">
+                                        <h5 className="card-title ">KOKO</h5>
+                                    </div>
+                                
+                                
                             </div>
                         </div>
                         <div className="col-sm-1 mx-auto">
